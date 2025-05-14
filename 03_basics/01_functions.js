@@ -44,4 +44,35 @@ function loginUserMessage(username = "anurag"){
 }
 
 //console.log(loginUserMessage("anurag"));
-console.log(loginUserMessage("rahul"));
+//console.log(loginUserMessage("rahul"));
+
+function calculateCartPrice(val1, val2, ...num1){ // ...is spread and rest operator that,s depend on usecase when we call this spread and rest operator
+         return num1
+}
+
+//console.log(calculateCartPrice(300, 700, 400, 5000));
+
+const user = {
+    username: "Anurag",
+    prices: 600
+}
+
+function handleObject(anyobject){
+         console.log(`Username is ${anyobject.username} and price is ${anyobject.price} `);
+         
+}
+
+//handleObject(user)
+handleObject({
+    username: "sam",
+    price: 499
+})
+
+const myNewArray = [200, 400, 500, 600]
+
+function returnSecondValue(getArray){
+       return getArray[3]
+}
+
+//console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 4000, 500, 7000]));
